@@ -22,6 +22,10 @@ class Transfer
     end
   
     def execute_transaction
+      @sender -= @money
+      @receiver += @money
+      self.status 
+      
       
     end
   
