@@ -1,4 +1,4 @@
-require_all 'lib'
+# require_all 'lib'
 
 class Transfer
   attr_reader :money, :sender, :receiver
