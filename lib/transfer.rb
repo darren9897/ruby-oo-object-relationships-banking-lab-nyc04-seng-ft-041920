@@ -21,7 +21,7 @@ class Transfer
       end
     end
   
-    def execute_transaction()
+    def execute_transaction
       self.sender -= self.money
       self.receiver += self.money
       self.status 
