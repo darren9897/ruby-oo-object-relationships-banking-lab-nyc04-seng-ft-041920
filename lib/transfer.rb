@@ -21,10 +21,7 @@ class Transfer
       end
     end
   
-    def interviewers
-        self.interviews.collect do |interview|
-            interview.interviewer
-        end
+    def execute_transaction
     end
   
   
